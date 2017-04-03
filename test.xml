@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<ahp>
+  <goal name="overall_satisfaction">
+  	<comparisons>
+  		<ratio>0.5</ratio>
+  		<ratio>0.25</ratio>
+  		<ratio>0.5</ratio>
+  	</comparisons>
+  	<criterion name="climate">
+  		<comparisons>
+  			<ratio>1</ratio>
+  			<ration>4</ration>
+  			<ratio>4</ratio>
+  		</comparisons>
+  	</criterion>
+  	<criterion name="environment">
+  		<comparisons>
+  			<ratio>2</ratio>
+  			<ratio>6</ratio>
+  			<ratio>3</ratio>
+  		</comparisons>
+  	</criterion>
+  	<criterion name="cost">
+  		<comparisons>
+  			<ratio>0.5</ratio>
+  			<ratio>0.125</ratio>
+  			<ratio>0.25</ratio>
+  		</comparisons>
+  	</criterion>
+  </goal>
+  <alternatives>
+    <alternative>Barcelona</alternative>
+    <alternative>Reykjavik</alternative>
+    <alternative>Rome</alternative>
+  </alternatives>
+</ahp>

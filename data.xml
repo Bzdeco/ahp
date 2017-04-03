@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ahp>
+  <goal name="overall_satisfaction">
+      <comparisons>
+          <ratio>2</ratio>
+          <ratio>4</ratio>
+          <ratio>2</ratio>
+      </comparisons>
+      <criterion name="mechanics">
+          <comparisons>
+              <ratio>2</ratio>
+              <ratio>4</ratio>
+              <ratio>1</ratio>
+              <ratio>2</ratio>
+              <ratio>0.5</ratio>
+              <ratio>0.25</ratio>
+          </comparisons>
+          <criterion name="brakes">
+              <comparisons>
+                  <ratio>0.5</ratio>
+                  <ratio>0.25</ratio>
+                  <ratio>0.5</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="quality_of_the_shift">
+              <comparisons>
+                  <ratio>9</ratio>
+                  <ratio>9</ratio>
+                  <ratio>1</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="horse_power">
+              <comparisons>
+                  <ratio>9</ratio>
+                  <ratio>9</ratio>
+                  <ratio>1</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="wheels">
+              <comparisons>
+                  <ratio>1</ratio>
+                  <ratio>1</ratio>
+                  <ratio>1</ratio>
+              </comparisons>
+          </criterion>
+      </criterion>
+      <criterion name="aesthetic">
+          <comparisons>
+              <ratio>1</ratio>
+              <ratio>1</ratio>
+              <ratio>1</ratio>
+          </comparisons>
+          <criterion name="wheels">
+              <comparisons>
+                  <ratio>2</ratio>
+                  <ratio>4</ratio>
+                  <ratio>2</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="color">
+              <comparisons>
+                  <ratio>2</ratio>
+                  <ratio>4</ratio>
+                  <ratio>2</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="shape">
+              <comparisons>
+                  <ratio>0.11</ratio>
+                  <ratio>1</ratio>
+                  <ratio>9</ratio>
+              </comparisons>
+          </criterion>
+      </criterion>
+      <criterion name="comfort">
+          <comparisons>
+              <ratio>9</ratio>
+              <ratio>9</ratio>
+              <ratio>1</ratio>
+          </comparisons>
+          <criterion name="air_conditioning">
+              <comparisons>
+                  <ratio>0.88</ratio>
+                  <ratio>8</ratio>
+                  <ratio>9</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="seats">
+              <comparisons>
+                  <ratio>2</ratio>
+                  <ratio>4</ratio>
+                  <ratio>2</ratio>
+              </comparisons>
+          </criterion>
+          <criterion name="other_optionals">
+              <comparisons>
+                  <ratio>1</ratio>
+                  <ratio>1</ratio>
+                  <ratio>1</ratio>
+              </comparisons>
+          </criterion>
+      </criterion>
+  </goal>
+  <alternatives>
+    <alternative>Car 1</alternative>
+    <alternative>Car 2</alternative>
+    <alternative>Car 3</alternative>
+  </alternatives>
+</ahp>
